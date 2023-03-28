@@ -1,7 +1,7 @@
 # 기름값 꼼짝마
 
 - 개발 인원 : 1인 (임재혁)
-- pigma를 통한 기획서 작성 후 개발 진행
+- figma를 통한 기획서 작성 후 개발 진행
 
 
     <img src="https://github.com/Jaehyuksssss/oil-info/blob/master/public/assets/pigma-1.png?raw=true"  width="900" alt="image">

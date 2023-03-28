@@ -17,26 +17,26 @@ export default function LoginStore() {
     </LoginContainer>
   )
 }
-const LoginContainer = styled.div`
+export const LoginContainer = styled.div`
   height: calc(var(--vh, 1vh) * 100);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 `
-const TitleContiner = styled.div`
+export const TitleContiner = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 `
-const InputContainer = styled.div`
+export const InputContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 `
-const LoginWrapper = styled.div`
+export const LoginWrapper = styled.div`
   gap: 3rem;
   width: 100%;
   height: 100vh;

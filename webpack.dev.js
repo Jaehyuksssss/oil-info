@@ -1,8 +1,8 @@
-const { merge } = require('webpack-merge');
+const { merge } = require('webpack-merge')
 
-const common = require('./webpack.config.js');
+const common = require('./webpack.config.js')
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8000
 
 module.exports = merge(common, {
   mode: 'development',
@@ -11,4 +11,4 @@ module.exports = merge(common, {
     port: PORT,
     proxy: {},
   },
-});
+})

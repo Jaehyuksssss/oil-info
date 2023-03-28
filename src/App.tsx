@@ -1,11 +1,10 @@
 import React, { ReactElement, useEffect } from 'react'
 
-import TestIcon from '@public/assets/icon.svg'
 import { RecoilRoot } from 'recoil'
 import GlobalStyle from './styles/globalStyles'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import SelectStore from './Pages/SelectStore'
 import LoginStore from './Pages/LoginStore'
-
 interface Props {}
 
 function App({}: Props): ReactElement {
@@ -22,6 +21,7 @@ function App({}: Props): ReactElement {
       <BrowserRouter>
         <Routes>
           <Route element={<LoginStore />} path="/" />
+          <Route element={<SelectStore />} path="/select" />
         </Routes>
       </BrowserRouter>
     </RecoilRoot>
