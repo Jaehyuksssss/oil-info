@@ -2,9 +2,13 @@
 
 - 개발 인원 : 1인 (임재혁)
 - pigma를 통한 기획서 작성 후 개발 진행
-  
-  <img src="https://github.com/Jaehyuksssss/oil-info/blob/master/public/assets/pigma.png?raw=true"  width="342" alt="image">
+
+
+    <img src="https://github.com/Jaehyuksssss/oil-info/blob/master/public/assets/pigma-1.png?raw=true"  width="900" alt="image">
+
 - 개발 기간 : 3/28 ~
+- 기술 스택 : React , typescript, react-hook-form , axios
+- 사용된 api : 석유 동향 공공 api
 
 ---
 
